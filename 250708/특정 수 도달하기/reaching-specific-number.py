@@ -1,10 +1,11 @@
 num = input().split()
-num2=[]
 hap=0
+cnt=0
 for i in num:
-    while int(i) >= 250:
-        num2.append(i)
+    if int(i) >= 250:
+        break
     hap += int(i)
-avg_num= hap / len(num)
-print(hap,'',avg_num)
+    cnt += 1
+avg_num=hap/cnt
+print(hap,avg_num)
 
