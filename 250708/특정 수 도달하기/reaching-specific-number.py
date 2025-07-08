@@ -7,5 +7,5 @@ for i in num:
     hap += int(i)
     cnt += 1
 avg_num=hap/cnt
-print(hap,avg_num)
+print(f"{hap} {avg_num:.1f}")
 
