@@ -1,6 +1,7 @@
-score=map(float,input().split())
+score=list(map(float,input().split()))
+n=len(score)
 hap=0
 for i in score:
     hap += i
-avg = hap / 8
+avg = hap / n
 print(avg)
