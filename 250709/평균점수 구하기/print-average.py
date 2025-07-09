@@ -7,4 +7,4 @@ for j in score:
     hap += j
     cnt += 1
 avg = hap / cnt
-print(avg)
+print(f"{avg:.1f}")
