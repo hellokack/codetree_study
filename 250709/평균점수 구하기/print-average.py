@@ -1,9 +1,10 @@
 score=list(map(float,input().split()))
-n=len(score)
+cnt=0
 hap=0
 for j in score:
     if j>=100:
         break
     hap += j
-avg = hap / n
+    cnt += 1
+avg = hap / cnt
 print(avg)
