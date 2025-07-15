@@ -6,7 +6,7 @@ cnt=0
 for i in range(a-1):
     for j in range(b-1):
         if a_list[i] == b_list[j]:
-            if a_list[i+1] == b_list[j+1]:
+            if a_list[i+j] == b_list[j+1]:
                 ct+=1
                 cnt+=1
                 break
