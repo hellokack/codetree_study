@@ -1,8 +1,9 @@
+import sys
 n = int(input())
 a = list(map(int, input().split()))
 
 # Please write your code here.
-min=100
+min=sys.maxsize
 for i in a:
     if min > i:
         min = i
