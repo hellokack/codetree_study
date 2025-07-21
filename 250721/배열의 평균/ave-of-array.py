@@ -9,12 +9,12 @@ for i in range(2):
     for j in range(4):
         avg_g+=arr[i][j]
     avg_1 += avg_g
-    print(avg_g/4,end=' ')
+    print(f"{avg_g/4:.1f}",end=' ')
 print()
 for j in range(4):
     avg_s=0
     avg_s=arr[0][j] + arr[1][j]
-    print(avg_s/2,end=' ')
+    print(f"{avg_s/2:.1f}",end=' ')
 print()
-print(avg_1/8)
+print(f"{avg_1/8:.1f}")
     
