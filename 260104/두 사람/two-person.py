@@ -1,8 +1,8 @@
 a=list(input().split())
 b=list(input().split())
-if int(a[0])>=19 or a[1]=="M":
+if int(a[0])>=19 and a[1]=="M":
     print(1)
-elif int(b[0])>=19 or b[1]=="M":
+elif int(b[0])>=19 and b[1]=="M":
     print(1)
 else:
     print(0)
